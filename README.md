@@ -19,6 +19,7 @@ Vale ressaltar que dentro desse módulos existem outros pequenos módulos, mostr
 <br>
 Desses módulos eu organizei da seguinte maneira.
 <br>
+<br>
 
 | Nome        | Descrição                                                       | Link                       |
 | ----------- | --------------------------------------------------------------- | -------------------------- |
