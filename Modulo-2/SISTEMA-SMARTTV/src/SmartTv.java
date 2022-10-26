@@ -9,13 +9,16 @@ public class SmartTv {
         volume++;
     }
     public void diminuirV(){
-        --volume;
+        volume--;
     }
     public void passarCanal(){
         canal++;
     }
     public void voltarCanal(){
-        --canal;
+        canal--;
+    }
+    public void escolherCanal(int novoCanal){
+        canal = novoCanal;
     }
     public void ligar(){
         ligada = true;
