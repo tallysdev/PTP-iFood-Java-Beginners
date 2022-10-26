@@ -6,6 +6,15 @@ public class Usuario {
         System.out.println("TV esta ligada? " +smartTv.ligada);
         System.out.println("Canal da TV: " +smartTv.canal);
         System.out.println("Volume da TV: " +smartTv.volume);
+
+        smartTv.passarCanal();
+        smartTv.ligar();
+        smartTv.diminuirV();
+
+        System.out.println("TV esta ligada? " +smartTv.ligada);
+        System.out.println("Canal da TV: " +smartTv.canal);
+        System.out.println("Volume da TV: " +smartTv.volume);
+
     
     }
 }
