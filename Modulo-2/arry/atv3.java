@@ -1,9 +1,6 @@
 package arry;
 
 import java.util.Random;
-
-import javax.swing.BoundedRangeModel;
-
 class atv3 {
     
     public static void main(String[] args) {
