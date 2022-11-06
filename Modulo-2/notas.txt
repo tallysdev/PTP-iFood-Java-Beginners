@@ -6,9 +6,10 @@ Anatomia de classe 4 - Identar codigos é importante para que outras pessoas qua
 Atividade 1: Era pedido um loop para que quando fosse destinado o valor "0" na variavel nome ele parasse. 
 Atividade 2: Era pedido um loop que para validar se uma nota estava entre 0 e 10.
 Atividade 3: Era pedido uma forma de pedir 5 numeros e retorar o maior e a medias entre eles.
-Atividade 4: Era pedido uma forma de pedir N numeros escolhisdos pelo usuario, e mostrarem a quantidade de numeros pares e impares.
+Atividade 4: Era pedido uma forma de pedir N numeros escolhidos pelo usuario, e mostrarem a quantidade de numeros pares e impares.
 Atividade 5: Era pedido uma forma de tabuada de algum numero escolhido pelo usuario.
 Atividade 6: Era pedido uma forma de calcular o fatoria de um numero escolhido pelos usuario.
 
 - Arry - 
 Atividade 1: Era pedido uma forma de mostrar um arry na ordem inversa.
+Atividade 2: Era pedido uma forma de contar quantas consoantes estavam em um certo arry de letras escolhidas pelo usuario.
