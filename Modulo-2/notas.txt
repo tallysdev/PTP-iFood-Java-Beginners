@@ -6,3 +6,4 @@ Atividade 1: Era pedido um loop para que quando fosse destinado o valor "0" na v
 Atividade 2: Era pedido um loop que para validar se uma nota estava entre 0 e 10.
 Atividade 3: Era pedido uma forma de pedir 5 numeros e retorar o maior e a medias entre eles.
 Atividade 4: Era pedido uma forma de pedir N numeros escolhisdos pelo usuario, e mostrarem a quantidade de numeros pares e impares.
+Atividade 5: Era pedido uma forma de tabuada de algum numero escolhido pelo usuario.
