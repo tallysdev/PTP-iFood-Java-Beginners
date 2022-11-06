@@ -14,3 +14,4 @@ Atividade 6: Era pedido uma forma de calcular o fatoria de um numero escolhido p
 Atividade 1: Era pedido uma forma de mostrar um arry na ordem inversa.
 Atividade 2: Era pedido uma forma de contar quantas consoantes estavam em um certo arry de letras escolhidas pelo usuario.
 Atividade 3: Era pedido um arry de numeros aletarios e os seus sucessores.
+Atividade 4: Era pedido uma matriz de numeros aletarios.
