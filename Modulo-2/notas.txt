@@ -4,3 +4,4 @@ Anatomia de classe 4 - Identar codigos é importante para que outras pessoas qua
 
 Atividade 1: Era pedido um loop para que quando fosse destinado o valor "0" na variavel nome ele parasse. 
 Atividade 2: Era pedido um loop que para validar se uma nota estava entre 0 e 10.
+Atividade 3: Era pedido uma forma de pedir 5 numeros e retorar o maior e a medias entre eles.
