@@ -6,6 +6,6 @@ public class App {
 
         Vendas.pagamento(150);
         Vendas.pagamento(150, 25);
-        Vendas.pagamento(150.0f,5.0f,1.07f);
+        Vendas.pagamento(150,5,1);
     }
 }
