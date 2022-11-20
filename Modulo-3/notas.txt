@@ -1,0 +1,3 @@
+Herança x Assoiação: 
+    É interessante usar Herança para atributos fixos nos objetos, ou seja quando é ou faz parte do mesmo. Para assoiação é recomendado usar quando vai apaenas usar algo do objeto, mas que obrigatoriamente nao faz parte dele em sua abstração.
+
