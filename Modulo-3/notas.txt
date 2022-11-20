@@ -1,3 +1,8 @@
-Herança x Assoiação: 
-    É interessante usar Herança para atributos fixos nos objetos, ou seja quando é ou faz parte do mesmo. Para assoiação é recomendado usar quando vai apaenas usar algo do objeto, mas que obrigatoriamente nao faz parte dele em sua abstração.
+Associação:
+    Agregação: É o tipo de associação usada quando um atributo nao nescessriamente vive a partir do outro, ou seja é tambem tem a seu proio comportamento e funçoes.
+    Composição: É o tipo que de associação usada quando o atrbuto não tem mais valor fora do seu objeto.
+    Comportamental: É qunado um objeto depende e existe para a classe.
+
+Herança x Associação: 
+    É interessante usar Herança para atributos fixos nos objetos, ou seja quando é ou faz parte do mesmo. Para associação é recomendado usar quando vai apaenas usar algo do objeto, mas que obrigatoriamente nao faz parte dele em sua abstração.
 
