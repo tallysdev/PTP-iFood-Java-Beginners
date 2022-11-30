@@ -1,3 +1,6 @@
+<img align="right" src="https://user-images.githubusercontent.com/91434644/204682951-abb198d2-2e13-47fb-98b3-2359b4add9f1.png" width="400px" heigth="400px" />
+
+
 # [Potência Tech powered by iFood - Java Beginners](https://web.dio.me/track/20f1afd5-7e98-440b-8680-05b13da63c27)
 ## Bootcamp Oferecido pela Dio
 
