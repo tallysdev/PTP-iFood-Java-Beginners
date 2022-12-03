@@ -23,7 +23,13 @@ class List2 {
     System.out.println(meusGatos);  
 
     System.out.println("Ordenando por Idade");
-    Collections.sort(meusGatos, new ComparatorIdade());
+    // Collections.sort(meusGatos, new ComparatorIdade());
+    meusGatos.sort(new ComparatorIdade());
+    System.out.println(meusGatos);
+
+    System.out.println("Ordenando por Cor");
+    // Collections.sort(meusGatos, new ComparatorIdade());
+    meusGatos.sort(new ComparatorCor());
     System.out.println(meusGatos);
 
     }
@@ -95,6 +101,19 @@ class ComparatorIdade implements Comparator<Gato> {
         // TODO Auto-generated method stub
 
         return Integer.compare(g1.getIdade(), g2.getIdade());
+    }
+    
+}
+
+class ComparatorCor implements Comparator<Gato> {
+
+    /* (non-Javadoc)
+     * @see java.util.Comparator#compare(java.lang.Object, java.lang.Object)
+     */
+    @Override
+    public int compare(Gato g1, Gato g2) {
+        // TODO Auto-generated method stub
+        return g1.getCor().compareToIgnoreCase(g2.getCor());
     }
     
 }
