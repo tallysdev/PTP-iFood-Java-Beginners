@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 class List2 {
@@ -21,7 +22,9 @@ class List2 {
 
     System.out.println(meusGatos);  
 
-    
+    System.out.println("Ordenando por Idade");
+    Collections.sort(meusGatos, new ComparatorIdade());
+    System.out.println(meusGatos);
 
     }
 
@@ -79,5 +82,19 @@ class Gato implements Comparable<Gato>{
         return this.getNome().compareToIgnoreCase(gato.getNome());
     } 
 
+    
+}
+
+class ComparatorIdade implements Comparator<Gato> {
+
+    /* (non-Javadoc)
+     * @see java.util.Comparator#compare(java.lang.Object, java.lang.Object)
+     */
+    @Override
+    public int compare(Gato g1, Gato g2) {
+        // TODO Auto-generated method stub
+
+        return Integer.compare(g1.getIdade(), g2.getIdade());
+    }
     
 }
