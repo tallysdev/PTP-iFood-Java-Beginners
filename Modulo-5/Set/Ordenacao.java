@@ -1,4 +1,5 @@
 import java.util.HashSet;
+import java.util.LinkedHashSet;
 import java.util.Set;
 
 class Ordenacao {
@@ -25,7 +26,21 @@ class Ordenacao {
             System.out.println(serie.getNome());
             System.out.println(serie.getGenero());
             System.out.println(serie.getEp());
-            System.out.println(" ");       
+            System.out.println(" ");
+        }
+
+        Set<Serie> minhaSeries2 = new LinkedHashSet<Serie>(){{
+            add(new Serie("got","fantasia",60));
+            add(new Serie("Sandman","fantasia",10));
+            add(new Serie("Wandinha","fantasia",8));
+        }};
+        System.out.println("Ordem por add");
+        System.out.println();
+        for (Serie serie : minhaSeries2) {
+            System.out.println(serie.getNome());
+            System.out.println(serie.getGenero());
+            System.out.println(serie.getEp());
+            System.out.println(" ");
         }
     }
 }
