@@ -1,5 +1,6 @@
+import java.util.Comparator;
 
-class Serie {
+class Serie implements Comparable<Serie>{
     public String nome;
     public String genero;
     public Integer ep;
@@ -55,6 +56,34 @@ class Serie {
         } else if (!ep.equals(other.ep))
             return false;
         return true;
+    }
+    /* (non-Javadoc)
+     * @see java.lang.Comparable#compareTo(java.lang.Object)
+     */
+    @Override
+    public int compareTo(Serie serie) {
+        // TODO Auto-generated method stub
+        int quantEp = Integer.compare(this.getEp(), serie.getEp());
+        if(quantEp != 0 ) return quantEp;
+        return this.getNome().compareTo(serie.getNome());
+    }
+    
+}
+
+class ComparatorNomeGenerpEp implements Comparator<Serie> {
+
+    /* (non-Javadoc)
+     * @see java.util.Comparator#compare(java.lang.Object, java.lang.Object)
+     */
+    @Override
+    public int compare(Serie s1, Serie s2) {
+        int nome = s1.getNome().compareTo(s2.getNome());
+        if(nome != 0 ) return nome;
+
+        int genero = s1.getGenero().compareTo(s2.getGenero());
+        if(genero != 0 ) return genero;
+
+        return Integer.compare(s1.getEp(), s2.getEp());
     }
     
 }
