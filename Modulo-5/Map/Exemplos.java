@@ -3,6 +3,7 @@ import java.util.Set;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.HashMap;
+import java.util.Iterator;
 
 class Exemplos {
     
@@ -43,6 +44,29 @@ class Exemplos {
                 System.out.println(modelo2 + " " + eco);
             }
         }
-        
+        System.out.println("Modelo menos eficiente");
+        Double consumoMenosEficiente = Collections.min(carrosp.values());
+        String modeloMenosEfificente = "";
+        for (Map.Entry<String, Double> entry : carrosp.entrySet()) {
+            if (entry.getValue().equals(consumoMenosEficiente)) {
+                modeloMenosEfificente = entry.getKey();
+                System.out.println("Modelo menos eficiente = " + modeloMenosEfificente + " consumo menos eficiente " + consumoMenosEficiente);
+            }
+        }
+        System.out.println("Soma dos consumos");
+        Iterator<Double> iterator = carrosp.values().iterator();
+        Double soma = 0d;
+        while (iterator.hasNext()) {
+            soma += iterator.next();
+        }
+        System.out.println(soma);
+        System.out.println("Media do consumo " + (soma/carrosp.size()));
+        Iterator<Double> iterator1 = carrosp.values().iterator();
+        while (iterator1.hasNext()) {
+            if(iterator1.next().equals(8d)) iterator1.remove();
+        } 
+        System.out.println(carrosp);
+        carrosp.clear();
+        System.out.println(carrosp);
     }
 }
